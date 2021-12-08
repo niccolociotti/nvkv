@@ -1,0 +1,76 @@
+!SESSION 2021-12-08 21:32:23.371 -----------------------------------------------
+eclipse.buildId=4.21.0.I20210906-0500
+java.version=17
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=it_IT
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/nicco_ciotti/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/nicco_ciotti/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2021-12-08 21:32:41.831
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-12-08 21:32:41.832
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@29c80149,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@14ad42,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2021-12-08 21:33:17.689
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-08 21:34:01.537
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-08 21:34:01.537
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@29d0841a[org.springframework.tooling.boot.ls:1.29.0.202110250907(id=468)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-08 21:34:01.539
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-08 21:34:01.565
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-08 21:34:03.989
+!MESSAGE Boot LS startup time from start to initialized: 2442ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-08 21:34:04.102
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.KtJWGaNBisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-08 21:34:04.107
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-08 21:34:04.110
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-08 21:34:04.110
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-08 21:34:04.110
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.KtJWGaNB => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-08 21:34:04.111
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-08 21:34:04.114
+!MESSAGE classpath=65 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-08 21:34:04.115
+!MESSAGE buffering callback sts4.classpath.KtJWGaNB ProgettoEsame false 65
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-08 21:34:04.115
+!MESSAGE executing callback sts4.classpath.KtJWGaNB 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-12-08 21:34:04.746
+!MESSAGE executing callback sts4.classpath.KtJWGaNB SUCCESS [done]
